@@ -571,6 +571,104 @@ main {
 /* HEADER END */
 
 /* MAIN START */
+/* -----------DONE START------------ */
+
+.tint-headline {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  padding-top: 9.6rem;
+}
+.tint-headline__line {
+  width: 72px;
+  height: 1px;
+  stroke-width: 2px;
+  background-color: var(--primary-text);
+}
+.headline__p {
+  color: var(--primary-text);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+.tint-head-title {
+  width: 750px;
+  padding-left: 9.8rem;
+  margin-top: 3.2rem;
+  color: var(--primary-text);
+  font-family: "Roboto";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.tint-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  padding-bottom: 9.6rem;
+  margin-top: 6.5rem;
+}
+.tint-cart {
+  width: 411px;
+  height: 421px;
+  border-radius: 12px;
+  background: var(--black, #0b0706);
+}
+.juigli {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/done1.png");
+}
+.cart-title {
+  width: 315px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 28px;
+  line-height: 150%;
+  margin-top: 8rem;
+  margin-right: 4.8rem;
+  margin-left: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.cart-p {
+  width: 315px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 1.6rem;
+  margin-left: 4.8rem;
+}
+
+.tint-btn {
+  margin-left: 4.8rem;
+  border: 0;
+  margin-top: 6.4rem;
+  cursor: pointer;
+}
+
+.tint-btn:hover {
+  opacity: 0.7;
+}
+
+.palm {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/done2.png");
+}
+.desert {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/done3.png");
+}
+
+/* --------------DONE END----------- */
 
 /* CTA START */
 .cta {
@@ -612,6 +710,10 @@ main {
   font-weight: 500;
   line-height: normal;
 }
+
+.primary-btn:hover {
+  background-color: var(--secondary-text);
+}
 .btn {
 }
 .secondary-btn {
@@ -620,6 +722,10 @@ main {
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
+}
+
+.secondary-btn:hover {
+  background-color: var(--green-secondary);
 }
 /* CTA END */
 
@@ -680,6 +786,109 @@ main {
   color: var(--secondary-text);
 }
 /* -----------------BLOG END------------- */
+.events {
+  padding-bottom: 9.6rem;
+}
+.events-container {
+}
+
+.events-head-titles {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+.events-title {
+  color: var(--primary-text, #1d2130);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.events-line {
+  margin-top: 30px;
+  width: 1062px;
+  height: 1px;
+  background: #e5e5e5;
+}
+.events-content {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.events-card {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--green-secondary, #bef3c0);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-right: 4rem;
+}
+.events-date {
+  margin-left: 4rem;
+}
+.date-title {
+  color: var(--primary-text, #1d2130);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+.nextitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.4rem;
+  width: 381px;
+}
+.date-p {
+  color: var(--primary-text, #1d2130);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nextline {
+  display: flex;
+  gap: 2.3rem;
+}
+.next {
+  color: var(--primary-text, #1d2130);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.line {
+  margin-top: 6px;
+  width: 44px;
+  height: 2px;
+  background: #1d2130;
+}
+.events-next-title {
+  color: var(--primary-text, #1d2130);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.events-btn {
+  margin-left: 2.4rem;
+}
+
+.btttn:hover {
+  background-color: var(--black-color);
+}
+
+.events-btn:hover {
+  background-color: var(--black-color);
+}
+
 /* MAIN END */
 
 /* FOOTER START */
