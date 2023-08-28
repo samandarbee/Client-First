@@ -97,3 +97,61 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../images/done3.png");
 }
+
+.we__container {
+  display: flex;
+  padding-top: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+.container {
+}
+
+.we-img {
+  margin-left: 650px;
+}
+
+/* -----------environment start------- */
+
+.environment {
+}
+.environment__container {
+}
+
+.environment__container img {
+  width: 15px;
+  height: 15px;
+  padding: 6px 6px 7px 7px;
+}
+
+.container {
+}
+
+.environment-title {
+  color: var(--primary-text, #1d2130);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.envir-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  background: #83d187;
+}
+.environment-list {
+}
+.environment-list-title {
+  color: var(--primary-text, #1d2130);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.environment-description {
+  color: var(--secondary-text, #525560);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+  width: 332px;
+}
+
+/* ------------------environment end---------- */

@@ -1,0 +1,129 @@
+.clean__container {
+  margin-top: 9.6rem;
+  margin-bottom: 3.2rem;
+}
+.container {
+}
+.clean-small-title {
+  color: var(--primary-text, #1d2130);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.clean-small-title::before {
+  content: "";
+  display: inline-block;
+  width: 72px;
+  height: 1px;
+  background-color: rgba(29, 33, 48, 1);
+  margin-right: 2.4rem;
+}
+
+.clear-title {
+  width: 832px;
+  color: var(--primary-text, #1d2130);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 3.2rem;
+}
+.clear-description {
+  width: 832px;
+  color: var(--secondary-text, #525560);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.desc__contaienr {
+  margin-top: 4.8rem;
+}
+.contaienr {
+}
+.desc-title {
+  color: var(--primary-text, #1d2130);
+  margin-bottom: 1.6rem;
+
+  /* H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.desc-p {
+  width: 832px;
+  color: var(--secondary-text, #525560);
+  margin-bottom: 1.6rem;
+
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.desc-black-b {
+  margin-bottom: 1.6rem;
+  width: 832px;
+  color: var(--primary-text, #1d2130);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+}
+.desc-desciption {
+  width: 832px;
+  color: var(--secondary-text, #525560);
+
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+.join__container {
+  background-color: rgba(235, 240, 249, 1);
+  display: flex;
+}
+.container {
+}
+.join-list {
+  margin-right: 4.8rem;
+}
+.Join-title {
+  color: var(--primary-text, #1d2130);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.Join-title::before {
+}
+
+.Join-title {
+  display: flex;
+}
+.join-description {
+  background-color: rgba(235, 240, 249, 1);
+  color: var(--secondary-text, #525560);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  width: 436px;
+}
+
+.jooin-contaner {
+  display: flex;
+}
